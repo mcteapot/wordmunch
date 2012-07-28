@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>wordmunch</title>
+		<meta charset="utf-8">		
+		<style type="text/css">
+			body {
+				background-color: #f0f0f0;
+				margin: 0px;
+				overflow: hidden;
+				text-align: center;
+			}
+			textarea {
+				height: 200; 
+				width: 400;
+				resize: none;
+			}
+			#info {
+				text-align:center;
+				z-index	: 1;
+				position: center;
+				top: 0px; width: 100%;
+				padding: 5px;
+			} 
+			a {
+				color: #0080bb;
+			}	
+		</style>
+	</head>
+	<body>
+		<div id="info">
+			<p>
+				<a href="http://cyborgdino.com/" target="_blank">cyborgdino.com</a> - Word Munch
+			</p>
+		</div>
+		<div id="form_area">
+			<p>
+				<form>
+					<textarea id="english_text" cols="70" rows="15"></textarea>
+					<br>
+					<!-- <input id="english_button" type="button" value="translate" style="height: 5em; width: 10em"> -->
+				</form>
+			</p>
+			<p id="working_paragraph">
+				<h4 id="output_text"></h4>
+			</p>
+		</div> 
+		<!-- include javascript files -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
+
